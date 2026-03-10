@@ -8,11 +8,29 @@
     <link>https://updates.bimover.ch/feyra/appcast.xml</link>
     <description>Update feed for Feyra-App</description>
 
-    <item>
-      <title>Feyra 1.0.4 beta 1</title>
-      <pubDate>Mon, 09 Mar 2026 12:00:00 +0100</pubDate>
-      <sparkle:channel>beta</sparkle:channel>
-      <sparkle:releaseNotes><![CDATA[
+     <item>
+       <title>Feyra 1.0.4</title>
+       <pubDate>Tue, 10 Mar 2026 07:22:41 +0100</pubDate>
+       <sparkle:releaseNotes><![CDATA[
+         <ul>
+           <li>Build 5</li>
+         </ul>
+       ]]></sparkle:releaseNotes>
+     
+       <enclosure url="https://github.com/bimover/feyra/releases/download/v1.0.4/Feyra-1.0.4.dmg"
+                 xml:lang="en"
+                 sparkle:shortVersionString="1.0.4"
+                 sparkle:version="5"
+                 sparkle:edSignature="jactnCwZxQThvCKiBPkOOpDUEJuFujza4YxtXtStopCfg/XFmjm0U03F4n/gjq2Eo/VN8OHO7dUlSe3pjTQcCw=="
+                 length="12445219"
+                 type="application/x-apple-diskimage"/>
+     </item>
+
+     <item>
+          <title>Feyra 1.0.4 beta 1</title>
+          <pubDate>Mon, 09 Mar 2026 12:00:00 +0100</pubDate>
+          <sparkle:channel>beta</sparkle:channel>
+          <sparkle:releaseNotes><![CDATA[
         <ul>
           <li>Beta channel example</li>
         </ul>
